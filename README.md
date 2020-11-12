@@ -7,7 +7,7 @@ Based on [this](https://cloud.google.com/solutions/chrome-desktop-remote-on-comp
 ### Steps:
 1. Install requirements (please check if the script is safe before you execute this command!)
 ```sh
-wget -qO- https://raw.githubusercontent.com/vutangamz/gategoo/master/install.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/vutangamz/chrome-remote-desktop/master/install.sh | sudo bash
 ```
 2. Set up the connection - https://remotedesktop.google.com/headless
 3. Connect to your server from https://remotedesktop.google.com/
