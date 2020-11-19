@@ -4,8 +4,6 @@
 #
 # See environmental variables at then end of the script for configuration
 #
-sudo apt update
-sudo apt-get install --assume-yes wget
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
 sudo dpkg --install chrome-remote-desktop_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
