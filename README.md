@@ -7,6 +7,8 @@ Based on [this](https://cloud.google.com/solutions/chrome-desktop-remote-on-comp
 ### Steps:
 1. Install requirements (please check if the script is safe before you execute this command!)
 ```sh
+sudo apt update
+sudo apt-get install --assume-yes wget
 wget -qO- https://raw.githubusercontent.com/vutangamz/chrome-remote-desktop/master/install.sh | sudo bash
 ```
 2. Set up the connection - https://remotedesktop.google.com/headless
